@@ -1,0 +1,185 @@
+body{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif ;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 1000px;
+}
+.header{
+    background-color: #1f1e28;
+    color: white;
+    padding:15px;  
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.Menu{
+    position: relative;
+    float: right;
+    right: 30px;
+    top: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: #1f1e28;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+
+}
+.Menu a{
+    text-align: left;
+    color: white;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.Menu a:hover{
+    background-color: #201d3b;
+}
+.home-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    position: relative;
+    background-color: #1f1e28;
+    justify-content: center;
+}
+.home-info-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:27px;
+    color: #c8d2db;
+    max-width: 630px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0%;
+}
+.login{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #149ef2;
+    margin: 40px 0px 20px;
+    width: 385px;
+    height: 50px;
+    border: 0px;
+}
+.img-btn{
+    float: left;
+    width: 40px;
+    height: 50px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin:-1px 0px 0px -7px;
+}
+.moreOption{
+    display: block;
+    border: 1px solid #149ef2;
+    background-color:#1f1e28;
+    margin:30px 0px;
+    border-radius: 10px;
+    text-align: center;
+    color: #149ef2;
+    text-decoration: none;
+    padding: 15px;
+}
+.moreOption:hover{
+    background-color: white;
+}
+
+.Menu-pro{
+    background-color: #1f1e28;
+    border: 1px solid #e0ddfc;
+    position: absolute;
+    right: -15px;
+    top: 40px;
+    padding: 10px;
+}
+.courses{
+    position: relative;
+    left: 5%;
+    top: -80px;
+    width: 90%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+.courses img{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.home-solo{
+    position: relative;
+    left: 5%;
+    top: 30px;
+    width: 90%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px 0px;
+}
+.home-solo div, .LearnAnyway div{
+    position: relative;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    width: 299px;
+    padding: 10px;
+    font-size: 19px;
+    height: 460px;
+}
+.home-solo button,.LearnAnyway button{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #149ef2;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+}
+.LearnAnyway{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 55px 0px;
+}
+.LearnAnyway button{
+    width: 220px;
+    position: relative;
+    bottom: -20px;
+    padding: 15px;
+    background-color: #40bf9c;
+}
+.LearnAnyway a img{
+    margin:17px 10px 0px 20px;
+    border-radius: 6px;
+}
+
+.platform{
+    margin-top: 8%;
+    background-color: white;
+    width: 80%;
+    padding: 7% 10%;
+}
+.titlePlatform{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+
+
+
